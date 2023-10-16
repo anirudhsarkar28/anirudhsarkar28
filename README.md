@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @anirudhsarkar28
 - 👀 I’m interested in Coding and Computer languages.
-- 🌱 I’m currently learning Python
+- 🌱 I’m currently learning C & CPP
 - 💞️ I’m looking to collaborate on simple internship work
 - 📫 How to reach me  Instagram:- anirudhsarkar28 & Email:-anirudhsarkar28@gmail.com
 

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<section class="projects-section" id="projects">
+
+    <h2 class="projects-title">PROJECTS</h2>
+
+    <div class="projects-grid">
+
+        <div class="project-card" onclick="openModal('modal1')">
+            <h3>AI Meeting Assistant</h3>
+            <p>Python • Streamlit • AI</p>
+        </div>
+
+        <div class="project-card" onclick="openModal('modal2')">
+            <h3>Virtual Trading Simulator</h3>
+            <p>Python • Finance • Streamlit</p>
+        </div>
+
+        <div class="project-card" onclick="openModal('modal3')">
+            <h3>Medical Imaging AI</h3>
+            <p>PyTorch • MedGemma</p>
+        </div>
+
+        <div class="project-card" onclick="openModal('modal4')">
+            <h3>Exoplanet Detection</h3>
+            <p>AI • Astronomy</p>
+            <h3>Tech Stack</h3>
+            <p>Python, NumPy, Pandas, Scikit-Learn</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Modal 1 -->
+<div class="modal" id="modal1">
+    <div class="modal-content">
+
+        <button class="close-btn" onclick="closeModal('modal1')">
+            ×
+        </button>
+
+        <h2>AI Meeting Assistant</h2>
+
+        <p>
+            A Streamlit application that transcribes meetings,
+            generates summaries, and exports reports using
+            Whisper and local LLMs.
+        </p>
+
+        <h3>Tech Stack</h3>
+        <p>Python, Streamlit, Faster-Whisper, LM Studio, ReportLab</p>
+
+    </div>
+</div>
+
+
+<!-- Modal 2 -->
+<div class="modal" id="modal2">
+    <div class="modal-content">
+
+        <button class="close-btn" onclick="closeModal('modal2')">
+            ×
+        </button>
+
+        <h2>Virtual Trading Simulator</h2>
+
+        <p>
+            Real-time portfolio simulator allowing users
+            to learn investing without risking money.
+        </p>
+
+        <h3>Tech Stack</h3>
+        <p>Python, Streamlit, SQLite, Stock APIs</p>
+
+    </div>
+</div>
+
+
+<!-- Modal 3 -->
+<div class="modal" id="modal3">
+    <div class="modal-content">
+
+        <button class="close-btn" onclick="closeModal('modal3')">
+            ×
+        </button>
+
+        <h2>Medical Imaging AI</h2>
+
+        <p>
+            Fine-tuned MedGemma on chest X-ray datasets
+            for medical image understanding.
+        </p>
+
+        <h3>Tech Stack</h3>
+        <p>PyTorch, Hugging Face, MedGemma</p>
+
+    </div>
+</div>
+
+
+<!-- Modal 4 -->
+<div class="modal" id="modal4">
+    <div class="modal-content">
+
+        <button class="close-btn" onclick="closeModal('modal4')">
+            ×
+        </button>
+
+        <h2>Exoplanet Detection</h2>
+
+        <p>
+            Machine learning pipeline for identifying
+            exoplanets from noisy astronomical light curves.
+        </p>
+
+        <h3>Tech Stack</h3>
+        <p>Python, NumPy, Pandas, Scikit-Learn</p>
+        <h3>Tech Stack</h3>
+        <p>Python, NumPy, Pandas, Scikit-Learn</p>
+        <h3>Tech Stack</h3>
+        <p>Python, NumPy, Pandas, Scikit-Learn</p>
+
+    </div>
+</div>
+</html>

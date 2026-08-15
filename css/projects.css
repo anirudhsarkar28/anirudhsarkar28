@@ -1,0 +1,97 @@
+.projects-section {
+    padding: 5rem 8%;
+}
+.projects-title {
+    text-align: center;
+    color: #1E56CD;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+.project-card {
+    padding: 1.5rem;
+    background: #FFFFFF;
+    border: 1px solid #E5E0D8;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.project-card:hover {
+    transform: translateY(-4px);
+}
+.project-card h3 {
+    margin: 0 0 0.5rem;
+    color: #1E56CD;
+    font-size: 1.1rem;
+}
+.project-card p {
+    margin: 0;
+    color: #555555;
+    font-size: 0.9rem;
+}
+
+/* Modal */
+
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    width: calc(100vw - 2rem);
+    max-width: 700px;
+     box-sizing: border-box;
+    background: #FDF8F2;
+    border-radius: 20px;
+    padding: 2rem;
+    position: relative;
+    overflow-wrap: break-word;
+}
+
+.close-btn {
+    position: absolute;
+    top: 1rem;
+    right: .75rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 2rem;
+    line-height: 1;
+    color: #1E56CD;
+}
+.modal-content h2 {
+    color: #1E56CD;
+    margin-top: 0;
+}
+.modal-content h3 {
+    margin-top: 1.5rem;
+}
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .projects-title {
+        font-size: 2.5rem;
+    }
+    .project-card {
+        padding: 1rem;
+    }
+    .project-card h3 {
+        font-size: 1rem;
+    }
+    .modal-content {
+        width: 95vw;
+        max-width: none;
+        padding: 1.25rem;
+    }
+}

@@ -1,0 +1,103 @@
+.skills-section {
+    padding: 5rem 8%;
+}
+
+.skills-title {
+    margin: 0 0 2.5rem 0;
+
+    text-align: center;
+
+    color: #1E56CD;
+
+    font-family: "Inter", sans-serif;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.skills-wall {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 0.75rem;
+    min-width: 0;
+}
+
+.skills-wall span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 45px;
+    padding: 0.6rem 0.9rem;
+    border-radius: 12px;
+    color: #1A1A1A;
+    min-width: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-align: center;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    transition: transform 0.2s ease;
+}
+
+.skills-wall span:hover {
+    transform: translateY(-2px);
+}
+
+/* Languages */
+.lang {
+    background: #E8F0FE;
+}
+
+/* Backend */
+.backend {
+    background: #E8F5E9;
+}
+
+/* Databases */
+.db {
+    background: #FFF3E0;
+}
+
+/* Tools */
+.tools {
+    background: #F3E5F5;
+}
+
+/* AI / Data */
+.ai {
+    background: #FCE4EC;
+}
+
+/* Core CS */
+.core {
+    background: #ECEFF1;
+}
+* {
+    box-sizing: border-box;
+}
+@media (max-width: 768px) {
+
+    .skills-section {
+        padding: 4rem 5%;
+    }
+    .skills-wall {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 0.6rem;
+    }
+
+    .skills-wall span {
+        min-height: 60px;
+        padding: 0.9rem 1.25rem;
+        font-size: 1rem;
+    }
+    .skills-title {
+        margin-bottom: 2rem;
+    }
+    .skills-wall span {
+        min-height: 60px;
+        padding: 0.9rem 1.25rem;
+        font-size: 1rem;
+    }
+}

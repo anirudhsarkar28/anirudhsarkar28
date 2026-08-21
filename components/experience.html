@@ -1,51 +1,55 @@
-<!DOCTYPE html>
 <section class="experience-section" id="experience">
 
-    <h2 class="experience-title">EXPERIENCE</h2>
+    <h2 class="experience-title">JOURNEY</h2>
 
-    <div class="timeline">
+    <div class="timeline-container">
 
-    <div class="timeline-item" onclick="openModal('exp1')">
-        <div class="timeline-dot"></div>
-        <h3>2021</h3>
-        <p>Class 10 - Delhi Public School</p>
+        <div class="timeline-line"></div>
+
+        <div class="timeline">
+
+            <div class="timeline-item" onclick="openModal('exp1')">
+                <div class="timeline-dot"></div>
+                <h3>2021</h3>
+                <p>Class 10 - Delhi Public School</p>
+            </div>
+
+            <div class="timeline-item" onclick="openModal('exp2')">
+                <div class="timeline-dot"></div>
+                <h3>2023</h3>
+                <p>Class 12 - Shri Ram Global School</p>
+            </div>
+
+            <div class="timeline-item" onclick="openModal('exp3')">
+                <div class="timeline-dot"></div>
+                <h3>2024</h3>
+                <p>B.Tech CSE (AI & Analytics) - Year 1</p>
+            </div>
+
+            <div class="timeline-item" onclick="openModal('exp4')">
+                <div class="timeline-dot"></div>
+                <h3>2025</h3>
+                <p>Industry Internships</p>
+            </div>
+
+            <div class="timeline-item" onclick="openModal('exp5')">
+                <div class="timeline-dot"></div>
+                <h3>2026</h3>
+                <p>KVK Baramati Collaboration</p>
+            </div>
+
+            <div class="timeline-item" onclick="openModal('exp6')">
+                <div class="timeline-dot"></div>
+                <h3>2027</h3>
+                <p>B.Tech Graduation</p>
+            </div>
+
+        </div>
+
     </div>
-
-    <div class="timeline-item" onclick="openModal('exp2')">
-        <div class="timeline-dot"></div>
-        <h3>2023</h3>
-        <p>Class 12 - Shri Ram Global School</p>
-    </div>
-
-    <div class="timeline-item" onclick="openModal('exp3')">
-        <div class="timeline-dot"></div>
-        <h3>2024</h3>
-        <p>B.Tech CSE (AI & Analytics) - Year 1</p>
-    </div>
-
-    <div class="timeline-item" onclick="openModal('exp4')">
-        <div class="timeline-dot"></div>
-        <h3>2025</h3>
-        <p>Year 2 • Internships</p>
-    </div>
-
-    <div class="timeline-item" onclick="openModal('exp5')">
-        <div class="timeline-dot"></div>
-        <h3>2026</h3>
-        <p>KVK Baramati Project</p>
-    </div>
-
-    <div class="timeline-item" onclick="openModal('exp6')">
-        <div class="timeline-dot"></div>
-        <h3>2027</h3>
-        <p>B.Tech Graduation</p>
-    </div>
-
-</div>
 
 </section>
 
-<!-- Experience 1 -->
 <!-- 2021 -->
 <div class="modal" id="exp1">
     <div class="modal-content">
@@ -53,7 +57,7 @@
         <h2>Delhi Public School</h2>
         <p>
             Completed Class 10 and built a strong foundation in mathematics,
-            science, and problem-solving.
+            science, and analytical thinking.
         </p>
     </div>
 </div>
@@ -64,8 +68,8 @@
         <button class="close-btn" onclick="closeModal('exp2')">×</button>
         <h2>Shri Ram Global School</h2>
         <p>
-            Completed Class 12 with a focus on Science, preparing for a career
-            in technology and engineering.
+            Completed Class 12 with a Science background, strengthening my
+            interest in engineering, technology, and problem solving.
         </p>
     </div>
 </div>
@@ -74,10 +78,10 @@
 <div class="modal" id="exp3">
     <div class="modal-content">
         <button class="close-btn" onclick="closeModal('exp3')">×</button>
-        <h2>MIT ADT University - Year 1</h2>
+        <h2>MIT ADT University - First Year</h2>
         <p>
-            Began B.Tech in Computer Science Engineering with a specialization
-            in Artificial Intelligence & Analytics.
+            Started my B.Tech in Computer Science Engineering with a
+            specialization in Artificial Intelligence & Analytics.
         </p>
     </div>
 </div>
@@ -86,11 +90,12 @@
 <div class="modal" id="exp4">
     <div class="modal-content">
         <button class="close-btn" onclick="closeModal('exp4')">×</button>
-        <h2>Industry Experience & Internships</h2>
+        <h2>Industry Experience</h2>
         <p>
             Completed a Java Internship at Mecgale Pneumatics and an AI/ML
             Virtual Internship with EduSkills Foundation in collaboration
-            with Google.
+            with Google, gaining exposure to software engineering and AI
+            development workflows.
         </p>
     </div>
 </div>
@@ -102,9 +107,8 @@
         <h2>KVK Baramati Collaboration</h2>
         <p>
             Developed a Farmland Processing Pipeline using FastAPI,
-            PostgreSQL/PostGIS, Shapely, and Docker in collaboration
-            with KVK Baramati, applying technology to solve real-world
-            agricultural data challenges.
+            PostgreSQL/PostGIS, Shapely, and Docker in collaboration with
+            KVK Baramati to process and standardize agricultural GPS datasets.
         </p>
     </div>
 </div>
@@ -120,4 +124,3 @@
         </p>
     </div>
 </div>
-</html>
